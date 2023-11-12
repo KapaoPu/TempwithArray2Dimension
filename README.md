@@ -1,14 +1,41 @@
-# TempwithArray2Dimension
-This project will get all higher temp in a day and lower temp in a day and collect data in a two dimension array and show all temp in that week and calculate a sum and an average
-# Installation steps
-git clone https://github.com/KapaoPu/TempwithArray2Dimension
+# Weekly Temperature Statistics
 
-cd TempwithArray2Dimension
+This Python script collects weekly temperature data, calculates various statistics, and displays the results.
 
+## Usage
 
-# How to Use
-python TempwithArray2Dimension.py 
+1. Run the script in a Python environment.
 
+2. Enter the maximum and minimum temperatures for each day of the week when prompted.
 
-# Credit
-Dev by : Tanabordee Pateepbutsagon
+3. The script will display the daily temperature statistics and calculate the overall weekly statistics.
+
+## Temperature Input
+
+- For each day of the week (Monday to Sunday), enter the maximum and minimum temperatures when prompted.
+
+## Weekly Statistics
+
+- The script will display the daily temperature statistics for each day of the week.
+
+- After entering all the temperatures, the script will also show the following overall weekly statistics:
+  - Maximum temperature of the week.
+  - Minimum temperature of the week.
+  - Average maximum temperature.
+  - Average minimum temperature.
+
+## Example Output
+
+- The script will output the daily and weekly temperature statistics.
+
+```plaintext
+วันจันทร์อุณภูมิสูงสุด :  30
+วันจันทร์อุณภูมิต่ำสุด :  20
+วันอังคารอุณภูมิสูงสุด :  31
+วันอังคารอุณภูมิต่ำสุด :  21
+...
+
+อุณหภูมิสูงสุดของอาทิตย์ :  35
+อุณหภูมิต่ำสุดของอาทิตย์ :  18
+ค่าเฉลี่ยอุณหภูมิสูงสุด :  32.71
+ค่าเฉลี่ยอุณหภูมิต้ำสุด :  22.14
